@@ -33,6 +33,7 @@ Vagrantfile
 *.log
 *.tar.gz
 *_temp
+.vagrant/
 .vagrant
 Vagrantfile
 bz2/

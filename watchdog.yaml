@@ -1,6 +1,0 @@
-watchdog:
-  -
-    interval: ':reboot'
-  -
-    interval: '1.minute'
-
