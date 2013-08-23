@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GLG Pretty Print</title>
+	<link rel="icon" href="../img/favicon.bmp" type="image/x-icon" />
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/font-awesome.min.css">
+	<script type="text/javascript" src="../js/jsonFormatter.js"></script>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/jquery.prettyprint.min.js"></script>
+	<script type="text/javascript" src="../js/prettyPrintTests.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/jsonFormatter.css">
+</head>
+<body>
+	<div id="main">
+		<form id="reply-form" action="" method="post">
+			<div class="form_description">
+				<div class="logo">
+				
+				</div>
+				<div class="test-main">
+					<div class="test-message"></div>
+					<div class="test-data" style="display:none">
+						<div>
+							<div id="phone_test">
+								<input id="phone"></input>
+								<input type="checkbox" id="detailed" checked>Detailed</input> 
+								<input type="button" id="test_pretty_print_button" class="secondary_btn" value="Format Phone"/>
+							</div>
+						</div>
+						<div id="Canvas" class="Canvas"></div>
+					</div>
+					<div class="test-results"></div>
+					
+				</div>
+				<div class="sidebar">
+				<i class="icon-reorder"></i>
+					<h3>Pretty Print Tester</h3>
+					<ul class="button-list">
+						<li><button class="secondary_btn" id="test_pretty_print">Format Phone</button></li>
+						<li><button class="secondary_btn" id="test_auto_format">AutoFormat</button></li>
+					</ul>
+				</div>
+			</div>						
+		</form>	
+	</div>
+</body>
+</html>

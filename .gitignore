@@ -14,5 +14,30 @@ tmp
 
 # YARD artifacts
 .yardoc
-_yardoc
+_yardoc	
 doc/
+
+#local files
+__all__.*
+.DS_Store
+.auto*
+.haproxy
+.nginx.conf
+.packages
+.profile
+.schedule.rb
+.supervisord
+.vagrant
+.bootstrap.sh
+Vagrantfile
+*.log
+*.tar.gz
+*_temp
+.vagrant
+Vagrantfile
+bz2/
+.tmp/
+node_modules/
+
+
+

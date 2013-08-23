@@ -1,0 +1,135 @@
+2013-08-21 17:26:00,398 INFO RPC interface 'supervisor' initialized
+2013-08-21 17:26:00,398 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-21 17:26:00,406 INFO daemonizing the supervisord process
+2013-08-21 17:26:00,407 INFO supervisord started with pid 3708
+2013-08-21 17:26:01,415 INFO spawned: 'autoreload' with pid 3780
+2013-08-21 17:26:01,486 INFO spawned: 'haproxy' with pid 3788
+2013-08-21 17:26:01,508 INFO spawned: 'serve_9001' with pid 3789
+2013-08-21 17:26:01,605 INFO spawned: 'serve_9002' with pid 3820
+2013-08-21 17:26:01,669 INFO spawned: 'proxy_9090_for_9000' with pid 3821
+2013-08-21 17:26:01,752 INFO spawned: 'autocompile' with pid 3866
+2013-08-21 17:26:02,481 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:26:02,481 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:26:02,494 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:26:02,922 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:26:02,922 INFO success: proxy_9090_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:26:02,922 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:44,650 INFO waiting for autoreload, haproxy, serve_9001, serve_9002, proxy_9090_for_9000, autocompile to die
+2013-08-21 17:27:44,712 INFO stopped: autocompile (terminated by SIGTERM)
+2013-08-21 17:27:44,713 INFO stopped: proxy_9090_for_9000 (exit status 0)
+2013-08-21 17:27:44,721 INFO stopped: serve_9002 (exit status 0)
+2013-08-21 17:27:44,722 INFO stopped: serve_9001 (exit status 0)
+2013-08-21 17:27:44,722 INFO stopped: haproxy (terminated by SIGTERM)
+2013-08-21 17:27:45,073 INFO stopped: autoreload (terminated by SIGTERM)
+2013-08-21 17:27:50,588 INFO RPC interface 'supervisor' initialized
+2013-08-21 17:27:50,588 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-21 17:27:50,595 INFO daemonizing the supervisord process
+2013-08-21 17:27:50,596 INFO supervisord started with pid 5585
+2013-08-21 17:27:51,600 INFO spawned: 'autoreload' with pid 5587
+2013-08-21 17:27:51,613 INFO spawned: 'haproxy' with pid 5589
+2013-08-21 17:27:51,614 INFO spawned: 'proxy_8081_for_9000' with pid 5590
+2013-08-21 17:27:51,621 INFO spawned: 'serve_9001' with pid 5591
+2013-08-21 17:27:51,629 INFO spawned: 'serve_9002' with pid 5592
+2013-08-21 17:27:51,638 INFO spawned: 'autocompile' with pid 5593
+2013-08-21 17:27:52,928 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:52,928 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:52,929 INFO success: proxy_8081_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:52,929 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:52,929 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:27:52,929 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:30,165 INFO waiting for autoreload, haproxy, proxy_8081_for_9000, serve_9001, serve_9002, autocompile to die
+2013-08-21 17:42:30,819 INFO stopped: autocompile (terminated by SIGTERM)
+2013-08-21 17:42:30,831 INFO stopped: serve_9001 (exit status 0)
+2013-08-21 17:42:30,831 INFO stopped: serve_9002 (exit status 0)
+2013-08-21 17:42:30,833 INFO stopped: proxy_8081_for_9000 (exit status 0)
+2013-08-21 17:42:30,838 INFO stopped: haproxy (terminated by SIGTERM)
+2013-08-21 17:42:31,491 INFO stopped: autoreload (terminated by SIGTERM)
+2013-08-21 17:42:35,698 INFO RPC interface 'supervisor' initialized
+2013-08-21 17:42:35,698 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-21 17:42:35,704 INFO daemonizing the supervisord process
+2013-08-21 17:42:35,705 INFO supervisord started with pid 10377
+2013-08-21 17:42:36,528 INFO spawned: 'autoreload' with pid 10581
+2013-08-21 17:42:36,533 INFO spawned: 'haproxy' with pid 10582
+2013-08-21 17:42:36,535 INFO spawned: 'proxy_8081_for_9000' with pid 10583
+2013-08-21 17:42:36,541 INFO spawned: 'serve_9001' with pid 10584
+2013-08-21 17:42:36,549 INFO spawned: 'serve_9002' with pid 10586
+2013-08-21 17:42:36,557 INFO spawned: 'autocompile' with pid 10587
+2013-08-21 17:42:37,867 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:37,867 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:37,867 INFO success: proxy_8081_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:37,867 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:37,867 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-21 17:42:37,867 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:20,948 INFO RPC interface 'supervisor' initialized
+2013-08-23 10:55:20,948 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-23 10:55:20,954 INFO daemonizing the supervisord process
+2013-08-23 10:55:20,955 INFO supervisord started with pid 4174
+2013-08-23 10:55:21,778 INFO spawned: 'autoreload' with pid 4386
+2013-08-23 10:55:21,795 INFO spawned: 'haproxy' with pid 4388
+2013-08-23 10:55:21,804 INFO spawned: 'proxy_8081_for_9000' with pid 4389
+2013-08-23 10:55:21,813 INFO spawned: 'serve_9001' with pid 4390
+2013-08-23 10:55:21,819 INFO spawned: 'serve_9002' with pid 4391
+2013-08-23 10:55:21,837 INFO spawned: 'autocompile' with pid 4392
+2013-08-23 10:55:23,119 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:23,120 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:23,120 INFO success: proxy_8081_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:23,120 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:23,120 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 10:55:23,120 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 14:49:50,102 INFO exited: autocompile (exit status 1; not expected)
+2013-08-23 14:49:51,104 INFO spawned: 'autocompile' with pid 29312
+2013-08-23 14:49:53,016 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 16:09:26,303 INFO exited: autocompile (exit status 1; not expected)
+2013-08-23 16:09:26,309 INFO spawned: 'autocompile' with pid 15766
+2013-08-23 16:09:26,314 INFO exited: autoreload (exit status 1; not expected)
+2013-08-23 16:09:26,353 INFO spawned: 'autoreload' with pid 15768
+2013-08-23 16:09:27,439 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 16:09:27,440 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 16:11:09,411 INFO exited: autoreload (exit status 1; not expected)
+2013-08-23 16:11:10,415 INFO spawned: 'autoreload' with pid 16201
+2013-08-23 16:11:11,451 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 16:30:26,810 INFO exited: autocompile (exit status 1; not expected)
+2013-08-23 16:30:27,814 INFO spawned: 'autocompile' with pid 21794
+2013-08-23 16:30:28,864 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 16:41:49,260 INFO exited: autoreload (exit status 1; not expected)
+2013-08-23 16:41:50,262 INFO spawned: 'autoreload' with pid 24162
+2013-08-23 16:41:51,306 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:14,722 INFO RPC interface 'supervisor' initialized
+2013-08-23 17:49:14,722 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-23 17:49:14,728 INFO daemonizing the supervisord process
+2013-08-23 17:49:14,730 INFO supervisord started with pid 6857
+2013-08-23 17:49:15,734 INFO spawned: 'autoreload' with pid 6858
+2013-08-23 17:49:15,743 INFO spawned: 'haproxy' with pid 6859
+2013-08-23 17:49:15,748 INFO spawned: 'proxy_8081_for_9000' with pid 6861
+2013-08-23 17:49:15,754 INFO spawned: 'serve_9001' with pid 6862
+2013-08-23 17:49:15,763 INFO spawned: 'serve_9002' with pid 6863
+2013-08-23 17:49:15,774 INFO spawned: 'autocompile' with pid 6864
+2013-08-23 17:49:16,837 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:16,837 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:16,837 INFO success: proxy_8081_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:16,837 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:16,838 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:16,838 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:38,099 INFO waiting for autoreload, haproxy, proxy_8081_for_9000, serve_9001, serve_9002, autocompile to die
+2013-08-23 17:49:38,101 INFO stopped: autocompile (terminated by SIGTERM)
+2013-08-23 17:49:38,112 INFO stopped: serve_9001 (exit status 0)
+2013-08-23 17:49:38,113 INFO stopped: serve_9002 (exit status 0)
+2013-08-23 17:49:38,115 INFO stopped: proxy_8081_for_9000 (exit status 0)
+2013-08-23 17:49:38,117 INFO stopped: haproxy (terminated by SIGTERM)
+2013-08-23 17:49:38,118 INFO stopped: autoreload (terminated by SIGTERM)
+2013-08-23 17:49:49,436 INFO RPC interface 'supervisor' initialized
+2013-08-23 17:49:49,438 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2013-08-23 17:49:49,445 INFO daemonizing the supervisord process
+2013-08-23 17:49:49,446 INFO supervisord started with pid 8300
+2013-08-23 17:49:50,194 INFO spawned: 'autoreload' with pid 8504
+2013-08-23 17:49:50,199 INFO spawned: 'haproxy' with pid 8505
+2013-08-23 17:49:50,200 INFO spawned: 'proxy_8081_for_9000' with pid 8506
+2013-08-23 17:49:50,210 INFO spawned: 'serve_9001' with pid 8508
+2013-08-23 17:49:50,219 INFO spawned: 'serve_9002' with pid 8509
+2013-08-23 17:49:50,221 INFO spawned: 'autocompile' with pid 8510
+2013-08-23 17:49:51,481 INFO success: autoreload entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:51,481 INFO success: haproxy entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:51,481 INFO success: proxy_8081_for_9000 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:51,481 INFO success: serve_9001 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:51,482 INFO success: serve_9002 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2013-08-23 17:49:51,482 INFO success: autocompile entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
