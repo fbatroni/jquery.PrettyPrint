@@ -38,6 +38,8 @@ Vagrantfile
 bz2/
 .tmp/
 node_modules/
+var/log/
+
 
 
 
