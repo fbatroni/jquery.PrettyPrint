@@ -4,7 +4,7 @@
 #and with failover
 services:
   -
-    port: 9000
+    port: 8000
     #having a proxy port hooks up nginx
     proxy_port: 8081
     #files ending in the following space separated patterns
@@ -13,11 +13,11 @@ services:
       - py
     programs:
       -
-        port: 9001
-        exec: .stew/hello 9001
+        port: 8001
+        exec: .stew/hello 8001
       -
-        port: 9002
-        exec: .stew/hello 9002
+        port: 8002
+        exec: .stew/hello 8002
     timeout: 30000
 #you can also just put in long running programs, background jobs that don't
 #serve a port to provide a service, but do local processing, things like

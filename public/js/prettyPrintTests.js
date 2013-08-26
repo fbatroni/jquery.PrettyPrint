@@ -1,6 +1,9 @@
 var currentButton;
 jQuery(document).ready(function($) {
 	
+
+	console.log($('<span>19172915910</span>').PrettyPrint('phone', {detailed: true}));
+
 	$('button').click(function(event) {
 		currentButton = $(this);
 		var function_to_execute = $(this).attr('id');
