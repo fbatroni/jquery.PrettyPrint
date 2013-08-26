@@ -95,10 +95,12 @@ var negativeFilters = {
        	return formatPhoneNumber(this);
 
     	function formatPhoneNumber(node) {
+    		var nodeText = $(node).val() || $(node).html() || $(node).text();
+    		console.log(nodeText);
     		if(opts.auto == true){
     			autoFormat(node);
     		}else{
-    			return specificFormat($(node).val(), opts.detailed);
+    			return specificFormat(nodeText, opts.detailed);
     		}
     		
 		}
